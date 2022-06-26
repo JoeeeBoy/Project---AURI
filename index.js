@@ -6,6 +6,8 @@ const app = express()
 app.use(express.json())
 app.use(require("./routes/index"))
 
+
+
 mongoose
   .connect(
     "mongodb+srv://adlan:begaev@cluster0.uhqp6.mongodb.net/onlinestore?retryWrites=true&w=majority"
